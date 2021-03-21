@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>School Managment System</title>
+		<link rel="stylesheet" href="assets/style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	</head>
+	<body>
+        
+		<div class="container">
+			<div class="row">
+			<form>
+				<!-- student name -->
+				<div class="from-control" >
+					<label for="name">Student Name</label>
+					<input type="text" id="name" placeholder="Abdulsalam" />
+				</div>
+				<!-- student name -->
+
+				<!-- student id -->
+				<div class="from-control">
+					<label for="idNumber">Student ID</label>
+					<input type="number" id="idNumber" placeholder="1918862" />
+				</div>
+				<!-- student id -->
+
+				<!-- student gdpa -->
+				<div class="from-control">
+					<label for="gdpa">Student GDPA</label>
+					<input type="number" id="gdpa" placeholder="3.70" />
+				</div>
+
+		</form>
+			<div  class="row">
+				<!-- student gdpa -->
+				<button id="Add" type="submit" class="btn btn-primary">Add</button>
+				<button id="Updata" type="submit" class="btn btn-primary">Updata</button>
+		</div>
+		<table  id="sList">
+			<thead>
+				<tr>
+					<th>Student Name:</th>
+		            <th>Student ID:</th>
+					<th>Student GDPA:</th>
+				</tr>
+			</thead>
+			<tbody>
+
+			</tbody>		
+		</table>
+    </table>
+</div>
+
+		<script src="src/main.js"></script>
+	</body>
+</html>
